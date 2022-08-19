@@ -2,9 +2,9 @@ body {
     overflow-x: hidden;
     font-family: 'Noto Sans', sans-serif;
     background-color: #f6f5f0;
+    width: 100%;
+    position: absolute;
 }
-
-
 
 a {
     text-decoration: none;
@@ -14,6 +14,9 @@ a {
     padding: 0 80px 0 80px;
     background-color: #f6f5f0;
 }
+
+
+
 
 .section-two {
     padding: 0 80px 0 80px;
@@ -72,11 +75,7 @@ a {
     background-color: #f6f5ef;
 }
 
-@media only screen and (min-width: 600px) {
-    .the-eager {
-        font-size: 50px;
-    }
-}
+
 
 
 .we-tech-to {
@@ -471,6 +470,7 @@ a {
 }
 
 .become-instructor-img-parent {
+    width: 100%;
     display: flex;
     justify-content: end;
 }
