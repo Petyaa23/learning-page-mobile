@@ -1,5 +1,204 @@
-@media only screen and (min-width: 320px) {
+/*@media only screen and (min-width: 320px) {*/
+/*    .start-your-block {*/
+/*         display: grid;*/
+/*         align-content: center;*/
+/*         justify-content: space-between;*/
+/*         align-items: baseline;*/
+/*     }*/
+/*    .container {*/
+/*        !*    display: flex;*!*/
+/*        !*    justify-content: center;*!*/
+/*        !*    width: 100%;*!*/
+/*        !*    flex-wrap: wrap;*!*/
+/*        !*}*!*/
+/*    }*/
+/*}*/
 
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    /* Style the navigation menu */
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+    }
+
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .topnav #myLinks {
+        display: none;
+    }
+
+    /* Style navigation menu links */
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 12px;
+        display: block;
+    }
+
+    .site-logo {
+        position: absolute;
+        top: 0;
+        height: 40px;
+    }
+
+    /* Style the hamburger menu */
+    .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    /* Add a grey background color on mouse-over */
+    /*.topnav a:hover {*/
+    /*    background-color: #ddd;*/
+    /*    color: black;*/
+    /*}*/
+
+    /* Style the active link (or home/logo) */
+    .active {
+        background-color: #F6F5EFFF;
+        color: white;
+        height: 30px;
+    }
+
+    body {
+        /*background: #000000;*/
+        /*color: #742f37;*/
+        /*font-family: "Caslon", serif;*/
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .container {
+        /*display: flex;*/
+        /*justify-content: center;*/
+        /*width: 100%;*/
+        /*flex-wrap: wrap;*/
+    }
+    .navbar {
+
+        display: none;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo {
+        display: none;
+        padding-right: 15px;
+    }
+
+    .header {
+        justify-content: end;
+    }
+    .menu {
+        display: none;
+        align-items: center;
+        justify-content: center;
+        font-size: xx-large;
+    }
+    .sign-in-block {
+        display: flex;
+        justify-content: end;
+        font-size: 12px;
+    }
+    .banner-boy {
+        width: 180px;
+        height: 200px;
+    }
+    .banner {
+    height: 210px;
+    }
+
+    .we-tech-to {
+        display: flex;
+        font-size: 20px;
+    }
+    .the-eager {
+        font-size: 20px;
+        float: none;
+    }
+    .banner-text {
+        float: none;
+         margin-left:0;
+        color: #375980;
+        font-size: 10px;
+    }
+    .start-button {
+        margin-top: 0;
+        margin-left:0;
+        line-height: 1;
+        border-radius: 50%;
+        background-color: #f0633f;
+        color: white;
+        text-align: center;
+        cursor: pointer;
+        font-size: 10px;
+        height: 50px;
+    }
+    br {
+        display: none;
+    }
+    .learning-text {
+        margin-top: 0;
+        font-size: 20px;
+    }
+    .start-your-block p {
+        font-size: 10px;
+        color: #8d8d8d;
+    }
+    .section-two {
+        display: table-footer-group;
+    }
+    .start-learning-today {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .circle-right-btn , .circle-left-btn {
+        cursor: pointer;
+        height: 35px;
+        width: 35px;
+        margin-top: 0;
+        font-size: 15px;
+    }
 
 }
 
+
+/*@media screen and (max-width: 480px) {*/
+/*    body {*/
+/*        background: #d21212;*/
+/*        !*color: #742f37;*!*/
+/*        !*font-family: "Caslon", serif;*!*/
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 768px) {*/
+/*    body{*/
+/*        background: purple;*/
+/*        !*color: white;*!*/
+/*        !*font-family: "Georgia", serif;*!*/
+/*    }*/
+/*}*/
+
+/*@media screen and (min-width: 768px) {*/
+/*    body {*/
+/*        background: pink;*/
+/*        !*color: cornsilk;*!*/
+/*        !*font-family: Gills Sans Extrabold, sans-serif;*!*/
+/*    }*/
+/*}*/
+
+/*@media screen and (min-width: 1440px) {*/
+/*    body {*/
+/*        background: orange;*/
+/*        !*color: #742f37;*!*/
+/*        !*font-family: "Caslon", serif;*!*/
+/*    }*/
+/*}*/

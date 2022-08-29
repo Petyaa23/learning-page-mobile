@@ -1,18 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Learning-page</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="media-queries.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
           integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
 </head>
 <body>
+
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+    <a href="#" class="active"><img class="site-logo" src="images/logo.jpg" alt="logo"></a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+        <a style="white-space: nowrap;">Home</a>
+        <a style="white-space: nowrap;">Courses</a>
+        <a style="white-space: nowrap;">Features</a>
+        <a style="white-space: nowrap;">About Us</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+
+
 <div class="section-one">
     <div class="header">
         <div class="navbar">
@@ -22,10 +45,10 @@
             <h1>Educare.</h1>
         </div>
         <div class="menu">
-            <span>Home</span> |
-            <span>Courses </span> |
-            <span>Features </span> |
-            <span>About Us</span>
+            <span style="white-space: nowrap;">Home |</span>
+            <span style="white-space: nowrap;">Courses |</span>
+            <span style="white-space: nowrap;">Features |</span>
+            <span style="white-space: nowrap;">About Us</span>
         </div>
         <div class="sign-in-block">
             <span class="sign-in">Sign In</span>

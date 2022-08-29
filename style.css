@@ -3,7 +3,6 @@ body {
     font-family: 'Noto Sans', sans-serif;
     background-color: #f6f5f0;
     width: 100%;
-    position: absolute;
 }
 
 a {
@@ -11,12 +10,9 @@ a {
 }
 
 .section-one {
-    padding: 0 80px 0 80px;
+    /*padding: 0 80px 0 80px;*/
     background-color: #f6f5f0;
 }
-
-
-
 
 .section-two {
     padding: 0 80px 0 80px;
@@ -75,9 +71,6 @@ a {
     background-color: #f6f5ef;
 }
 
-
-
-
 .we-tech-to {
     display: flex;
     font-size: 85px;
@@ -91,7 +84,7 @@ a {
 .start-button {
     height: 90px;
     line-height: 50px;
-    width: 90px;
+    /*width: 90px;*/
     font-size: 16px;
     border-radius: 50%;
     background-color: #f0633f;
@@ -614,3 +607,6 @@ a {
 .logo-footer {
     display: flex;
 }
+
+
+
