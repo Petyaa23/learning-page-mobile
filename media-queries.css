@@ -58,7 +58,6 @@
     /*    background-color: #ddd;*/
     /*    color: black;*/
     /*}*/
-
     /* Style the active link (or home/logo) */
     .active {
         background-color: #F6F5EFFF;
@@ -75,12 +74,14 @@
         width: 100%;
         overflow-x: hidden;
     }
+
     .container {
         /*display: flex;*/
         /*justify-content: center;*/
         /*width: 100%;*/
         /*flex-wrap: wrap;*/
     }
+
     .navbar {
 
         display: none;
@@ -96,42 +97,49 @@
     .header {
         justify-content: end;
     }
+
     .menu {
         display: none;
         align-items: center;
         justify-content: center;
         font-size: xx-large;
     }
+
     .sign-in-block {
         display: flex;
         justify-content: end;
         font-size: 12px;
     }
+
     .banner-boy {
         width: 180px;
         height: 200px;
     }
+
     .banner {
-    height: 210px;
+        height: 210px;
     }
 
     .we-tech-to {
         display: flex;
         font-size: 20px;
     }
+
     .the-eager {
         font-size: 20px;
         float: none;
     }
+
     .banner-text {
         float: none;
-         margin-left:0;
+        margin-left: 0;
         color: #375980;
         font-size: 10px;
     }
+
     .start-button {
         margin-top: 0;
-        margin-left:0;
+        margin-left: 0;
         line-height: 1;
         border-radius: 50%;
         background-color: #f0633f;
@@ -141,35 +149,280 @@
         font-size: 10px;
         height: 50px;
     }
+
     br {
         display: none;
     }
+
     .learning-text {
         margin-top: 0;
         font-size: 20px;
     }
+
     .start-your-block p {
         font-size: 10px;
         color: #8d8d8d;
     }
+
     .section-two {
         display: table-footer-group;
     }
+
     .start-learning-today {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .circle-right-btn , .circle-left-btn {
+
+    .circle-right-btn, .circle-left-btn {
         cursor: pointer;
-        height: 35px;
-        width: 35px;
+        height: 30px;
+        width: 30px;
         margin-top: 0;
         font-size: 15px;
     }
 
-}
+    .start-your-block {
+        display: flex;
+        align-items: baseline;
+        height: 110px;
 
+    }
+
+    .container {
+        justify-content: center;
+        height: 375px;
+    }
+
+    .card {
+        width: 70%;
+    }
+
+    .card-body p {
+        font-size: 10px;
+    }
+
+    #card_2, #card_3 {
+        display: none;
+    }
+
+    #circle_mobile {
+        display: flex;
+        justify-content: center;
+    }
+
+    .featured-courses-head {
+        font-size: 19px;
+    }
+
+    .featured-courses-text {
+        width: 100%;
+        font-size: 10px;
+
+    }
+
+    .featured-courses {
+        height: 105px;
+    }
+
+    .cards-for-buy {
+        margin-top: 8px;
+        border-radius: 20px;
+        background-color: #ffffff;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 2px 20px rgb(0 0 0 / 10%);
+        height: auto;
+    }
+
+    .cards-for-buy-images {
+        width: auto;
+        border-radius: 10%;
+        object-fit: cover;
+    }
+
+    .cards-for-buy-info {
+        padding-left: 0;
+    }
+
+    #cards_for_buy_4,
+    #cards_for_buy_3,
+    #cards_for_buy_2 {
+        display: none;
+    }
+
+    .card-price {
+        justify-content: center;
+        height: 465px;
+    }
+
+    .web-design-tx {
+        font-size: 15px;
+    }
+
+    .far-fa {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cards-for-buy-class-mounts {
+        margin-top: 10px;
+        font-size: 13px;
+        justify-content: space-between;
+    }
+
+    .cards-for-buy-by {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .cards-for-buy-now {
+        margin-top: 5px;
+        font-size: 15px;
+    }
+
+    .see-all-courses-button {
+        padding: 10px 10px 10px 10px;
+        margin-top: 20px;
+    }
+    .mentors-card , .mentors {
+        display: none;
+    }
+    .meet-with-our-mentors h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+    }
+    .meet-with-our-mentors p {
+        font-size: 10px;
+    }
+
+    .meet-with-our-mentors {
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+
+    }
+    .profile-digital {
+        display: none;
+    }
+
+    .view-profile {
+        margin-top: 20px;
+        padding: 10px 10px 0 10px;
+        height: 165px;
+    }
+
+    .few-words-head {
+        font-size: 20px;
+        margin-top:0;
+    }
+    .few-words-text {
+        width: 100%;
+        font-size: 10px;
+        margin: 0;
+
+    }
+    .few-words {
+        margin-top: 0;
+        height: 80px;
+    }
+    #cart_student {
+        display: none;
+    }
+    .card-students {
+        width: 100%;
+        margin-top: 0;
+
+    }
+    .icon-for-students {
+        display: none;
+    }
+    .become-instructor-img-parent {
+        display: none;
+    }
+    .become-instructor-head , .new-sletter-header {
+        font-size: 20px;
+    }
+
+    .become-instructor-app p {
+        font-size: 10px;
+    }
+
+    .start-teaching-button {
+        padding: 10px 10px 10px 10px;
+    }
+    .become-instructor {
+        padding: 0 10px 0 10px;
+        text-align: center;
+        height: 215px;
+        margin-top: 0;
+    }
+    .new-sletter-text {
+        font-size: 10px;
+        padding: 0 10px 0 10px;
+        width: 100%;
+    }
+
+    .new-sletter {
+        height: 300px;
+        margin-top: 10px;
+    }
+
+    .name-email-input {
+        border-radius: 30px;
+        padding: 8px 30px 8px 30px;
+        border: 1px solid #c5c5c5;
+    }
+    .input-name {
+        text-align: center;
+    }
+    .get-stared-button {
+        margin-top: 20px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .checkboxes-div {
+        width: 100%;
+    }
+
+    .checkboxes {
+        display: block;
+        margin-top: 10px;
+
+    }
+    .checkboxes p {
+        margin: 5px;
+        font-size: 10px;
+    }
+
+    .footer {
+        padding: 0;
+    }
+
+    .footer .col {
+        width: auto;
+        height: auto;
+        float: left;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        padding: 0 0 20px 20px;
+    }
+
+    .logo-footer {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+}
 
 /*@media screen and (max-width: 480px) {*/
 /*    body {*/

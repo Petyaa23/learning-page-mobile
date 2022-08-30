@@ -22,16 +22,14 @@
 <!-- Top Navigation Menu -->
 <div class="topnav">
     <a href="#" class="active"><img class="site-logo" src="images/logo.jpg" alt="logo"></a>
-    <!-- Navigation links (hidden by default) -->
     <div id="myLinks">
         <a style="white-space: nowrap;">Home</a>
         <a style="white-space: nowrap;">Courses</a>
         <a style="white-space: nowrap;">Features</a>
         <a style="white-space: nowrap;">About Us</a>
     </div>
-    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
+    <a href="javascript:void(0)" class="icon" onclick="myFunction()">
+        <i class="fa-fa-bars"></i>
     </a>
 </div>
 
@@ -109,7 +107,7 @@
                 <img src="images/startap1.jpg" alt="startap1"/>
             </div>
         </div>
-        <div class="card">
+        <div class="card" id="card_2">
             <div class="card-body">
                 <h3 class="card-h3">
                     Development Sector
@@ -123,7 +121,7 @@
                 <img src="images/startup2.png " alt="startap1"/>
             </div>
         </div>
-        <div class="card">
+        <div class="card" id="card_3">
             <div class="card-body">
                 <h3 class="card-h3">
                     Marketing Sector
@@ -137,6 +135,10 @@
                 <img src="images/startup3.jpg" alt="startap3"/>
             </div>
         </div>
+    </div>
+    <div class="circle" id="circle_mobile">
+        <input class="circle-right-btn" type="submit" value="<-">
+        <input class="circle-left-btn" type="submit" value="->">
     </div>
 </div>
 
@@ -152,10 +154,10 @@
                 <img class="cards-for-buy-images" src="images/cart1.png" alt="startap3"/>
             </div>
             <div class="cards-for-buy-info">
-                <div><i class="far fa-star"></i> <i class="far fa-star"></i> <i class="far fa-star"></i> <i
+                <div class="far-fa"><i class="far fa-star"></i> <i class="far fa-star"></i> <i class="far fa-star"></i> <i
                         class="far fa-star"></i> <i class="far fa-star"></i></div>
                 <div>
-                <span>
+                <span class="web-design-tx">
                     Web design course for the beginner to higher.
                 </span>
                 </div>
@@ -188,7 +190,7 @@
             </div>
         </div>
 
-        <div class="cards-for-buy">
+        <div class="cards-for-buy" id="cards_for_buy_2">
             <div class="cards">
                 <img class="cards-for-buy-images" src="images/cart1.png" alt="startap3"/>
             </div>
@@ -229,7 +231,7 @@
             </div>
         </div>
 
-        <div class="cards-for-buy">
+        <div class="cards-for-buy" id="cards_for_buy_3">
             <div class="cards">
                 <img class="cards-for-buy-images" src="images/cart1.png" alt="startap3"/>
             </div>
@@ -269,7 +271,7 @@
                 </div>
             </div>
         </div>
-        <div class="cards-for-buy">
+        <div class="cards-for-buy" id="cards_for_buy_4">
             <div class="cards">
                 <img class="cards-for-buy-images" src="images/cart1.png" alt="startap3"/>
             </div>
@@ -373,7 +375,7 @@
             <i class="far fa-star"></i>
         </div>
     </div>
-    <div class="card-students">
+    <div class="card-students" id="cart_student">
         <div class="image-star-icon">
             <img class="card-students-img" src="images/startup3.jpg" alt="Avatar">
             <div><i class="star-icon far fa-star"></i> 5.0</div>
@@ -409,7 +411,7 @@
         <p class="new-sletter-text">Start your learning today.Explore all the categories and choose what the best for
             you.</p>
     </div>
-    <div>
+    <div class="input-name">
         <label>
             <input type="text" placeholder='Name' class="name-email-input">
         </label>
@@ -425,13 +427,13 @@
             </label>
             <p>Explore the categories and choose what.</p>
         </div>
-        <div class="checkboxes-div">
+        <div class="checkboxes-div" id="checkbox_2" >
             <label>
                 <input type="checkbox">
             </label>
             <p>Explore the categories and choose what.</p>
         </div>
-        <div class="checkboxes-div">
+        <div class="checkboxes-div" id="checkbox_3" >
             <label>
                 <input type="checkbox">
             </label>
