@@ -3,8 +3,15 @@ body {
     font-family: 'Noto Sans', sans-serif;
     background-color: #f6f5f0;
     width: 100%;
-
 }
+
+.site-logo , .icon {
+    display: none;
+}
+#myLinks {
+    display: none;
+}
+
 #circle_mobile {
     display: none;
 }
@@ -81,12 +88,17 @@ a {
 }
 
 .the-eager {
-    float: right;
     font-size: 85px;
+    padding-left: 225px;
+}
+.the-eagers {
+    font-size: 85px;
+    padding-left: 290px;
 }
 
+
 .start-button {
-    height: 90px;
+    height: 80px;
     line-height: 50px;
     /*width: 90px;*/
     font-size: 16px;
@@ -291,7 +303,8 @@ a {
 }
 
 .fas {
-    color: #0975ee;
+    color: #000000;
+    font-size: 14px;
 }
 
 .cards-for-buy-by {
